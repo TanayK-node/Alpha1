@@ -1,0 +1,19 @@
+flask==3.0.3
+flask-cors==5.0.0
+google-generativeai==0.8.3
+supabase==2.4.0
+yfinance==0.2.43
+pandas==2.2.3
+numpy==2.1.2
+python-dotenv==1.0.1
+requests==2.32.3
+marshmallow==3.22.0
+gunicorn==23.0.0
+websockets==12.0   # ✅ stays under 13 to avoid Supabase realtime issues
+
+
+# New dependencies for enhanced functionality
+plotly==5.17.0
+streamlit>=1.36.0
+lxml==4.9.3
+beautifulsoup4==4.12.2
